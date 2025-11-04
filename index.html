@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpedbyGod 2025 | Bolu Weds Samuel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="wedding-title">HelpedbyGod 2025</h1>
+            <p class="couple-names">Bolu <span class="heart">&hearts;</span> Samuel</p>
+            <p class="wedding-date">November 19, 2025</p>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="couple-images">
+                <div class="couple-img-container">
+                    <img src="bs.jpeg" alt="Bolu and Samuel" class="couple-img main-img">
+                </div>
+                <div class="individual-images">
+                    <img src="bolu.jpeg" alt="Bolu" class="individual-img">
+                    <img src="sam.jpeg" alt="Samuel" class="individual-img">
+                </div>
+            </div>
+            <div class="hero-content">
+                <h2>Join Us in Celebration</h2>
+                <p>We're excited to share our special day with you</p>
+                <button class="cta-button" id="registerBtn">Register for Invitation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown">
+        <div class="container">
+            <h2>Counting Down to Our Big Day</h2>
+            <div class="countdown-timer">
+                <div class="countdown-item">
+                    <span id="days">00</span>
+                    <p>Days</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours">00</span>
+                    <p>Hours</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes">00</span>
+                    <p>Minutes</p>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds">00</span>
+                    <p>Seconds</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section class="registration" id="registration">
+        <div class="container">
+            <h2>Register for Your Personalized Invitation</h2>
+            <p>Complete the form below to receive your custom invitation via email</p>
+            
+            <form class="registration-form" id="registrationForm">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <select id="guests" name="guests">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5+</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="submit-btn">Get My Invitation</button>
+            </form>
+            
+            <div class="confirmation-message" id="confirmationMessage" style="display: none;">
+                <h3>Thank You for Registering!</h3>
+                <p>Your personalized invitation has been sent to your email.</p>
+                <div class="invitation-preview">
+                    <h4>Your Invitation Preview</h4>
+                    <div class="invitation-card">
+                        <p class="invitation-title">You're Invited!</p>
+                        <p class="invitation-names">Bolu & Samuel</p>
+                        <p class="invitation-date">November 19, 2025</p>
+                        <p class="invitation-guest" id="guestName"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2>Prewedding Photos</h2>
+            <p>Take a peek at our prewedding moments</p>
+            <a href="https://boluwatife28.pixieset.com/guestlogin/helpedbygod25/?return=%2Fhelpedbygod25%2F" class="gallery-btn" target="_blank">
+                View Our Gallery <i class="fas fa-external-link-alt"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Gift Section -->
+    <section class="gift">
+        <div class="container">
+            <h2>Support Our New Journey</h2>
+            <p>Your blessings and support mean the world to us</p>
+            <a href="https://paystack.shop/pay/helpedbygod25" class="gift-btn" target="_blank">
+                Send a Gift <i class="fas fa-gift"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>With love, Bolu & Samuel</p>
+            <p class="footer-quote">"HelpedbyGod 2025"</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Registration -->
+    <div class="modal" id="registrationModal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModal">&times;</span>
+            <h2>Register for Invitation</h2>
+            <p>Please fill out the form to receive your personalized invitation</p>
+            <!-- Form will be inserted here by JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
