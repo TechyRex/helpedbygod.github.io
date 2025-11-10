@@ -124,7 +124,7 @@ function sendInvitationEmail(fullName, email) {
     const templateParams = {
         to_email: email,
         to_name: fullName,
-        message_html: emailHTML
+       
     };
 
     emailjs.send(serviceID, templateID, templateParams)
@@ -148,3 +148,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
