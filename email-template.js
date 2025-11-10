@@ -7,7 +7,7 @@
 
 Template Content:
 
-Subject: Your Invitation to Bolu & Samson's Wedding
+Subject: Your Invitation to Bolu & Samuel's Wedding
 
 HTML Content:
 
@@ -90,7 +90,7 @@ HTML Content:
 </head>
 <body>
   <div class="header">
-    <h1 class="couple-names">Bolu & Samson</h1>
+    <h1 class="couple-names">Bolu & Samuel</h1>
     <p class="wedding-date">November 19th, 2023</p>
     <p class="wedding-theme">HelpedbyGod25</p>
   </div>
@@ -122,7 +122,7 @@ HTML Content:
   
   <div class="footer">
     <p>With love,</p>
-    <p><strong>Bolu & Samson</strong></p>
+    <p><strong>Bolu & Samuel</strong></p>
     <p>November 19th, 2023 • Ikorodu, Lagos</p>
   </div>
 </body>
