@@ -102,7 +102,7 @@ HTML Content:
     
     <div class="details">
       <div class="detail-item"><strong>Date:</strong> November 19th, 2023</div>
-      <div class="detail-item"><strong>Time:</strong> 2:00 PM</div>
+      <div class="detail-item"><strong>Time:</strong> 9:00 AM</div>
       <div class="detail-item"><strong>Location:</strong> Ikorodu, Lagos</div>
     </div>
     
