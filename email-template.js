@@ -7,7 +7,7 @@
 
 Template Content:
 
-Subject: Your Invitation to Bolu & Samuel's Wedding
+Subject: Your Invitation to Boluwatife & Mosimileoluwa's Wedding
 
 HTML Content:
 
@@ -90,8 +90,8 @@ HTML Content:
 </head>
 <body>
   <div class="header">
-    <h1 class="couple-names">Bolu & Samuel</h1>
-    <p class="wedding-date">November 19th, 2023</p>
+    <h1 class="couple-names">Boluwatife & Mosimileoluwa</h1>
+    <p class="wedding-date">November 19th, 2025</p>
     <p class="wedding-theme">HelpedbyGod25</p>
   </div>
   
@@ -101,9 +101,9 @@ HTML Content:
     <p>We are delighted to invite you to celebrate our wedding day with us!</p>
     
     <div class="details">
-      <div class="detail-item"><strong>Date:</strong> November 19th, 2023</div>
+      <div class="detail-item"><strong>Date:</strong> Wednesday 19th, November, 2025</div>
       <div class="detail-item"><strong>Time:</strong> 9:00 AM</div>
-      <div class="detail-item"><strong>Location:</strong> Ikorodu, Lagos</div>
+      <div class="detail-item"><strong>Location:</strong> Haven Hotel Ikorodu, Sawmill Bus Stops, <br> Okegbegun Adjacent Enyo Filling Station before Laspotech First Gate, Lagos</div>
     </div>
     
     <p>Your presence at our wedding means the world to us. We can't wait to share this special day with you.</p>
@@ -122,9 +122,9 @@ HTML Content:
   
   <div class="footer">
     <p>With love,</p>
-    <p><strong>Bolu & Samuel</strong></p>
-    <p>November 19th, 2023 • Ikorodu, Lagos</p>
-  </div>
+    <p><strong>Boluwatife & Mosimileoluwa</strong></p>
+    <p>November 19th, 2025 •  Haven Hotel Ikorodu, Sawmill Bus Stops, <br> Okegbegun Adjacent Enyo Filling Station before Laspotech First Gate, Lagos</p>
+</div>
 </body>
 </html>
 
